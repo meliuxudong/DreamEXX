@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B694D06E1D1E039D008E65DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D06D1D1E039D008E65DF /* main.m */; };
+		B694D0711D1E039D008E65DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D0701D1E039D008E65DF /* AppDelegate.m */; };
+		B694D0741D1E039D008E65DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D0731D1E039D008E65DF /* ViewController.m */; };
+		B694D0771D1E039D008E65DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694D0751D1E039D008E65DF /* Main.storyboard */; };
+		B694D0791D1E039D008E65DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B694D0781D1E039D008E65DF /* Assets.xcassets */; };
+		B694D07C1D1E039D008E65DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694D07A1D1E039D008E65DF /* LaunchScreen.storyboard */; };
+		B694D0871D1E039D008E65DF /* DreamEXXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D0861D1E039D008E65DF /* DreamEXXTests.m */; };
+		B694D0921D1E039D008E65DF /* DreamEXXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D0911D1E039D008E65DF /* DreamEXXUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B694D0831D1E039D008E65DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B694D0611D1E039D008E65DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B694D0681D1E039D008E65DF;
+			remoteInfo = DreamEXX;
+		};
+		B694D08E1D1E039D008E65DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B694D0611D1E039D008E65DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B694D0681D1E039D008E65DF;
+			remoteInfo = DreamEXX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B694D0691D1E039D008E65DF /* DreamEXX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamEXX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B694D06D1D1E039D008E65DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B694D06F1D1E039D008E65DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B694D0701D1E039D008E65DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B694D0721D1E039D008E65DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B694D0731D1E039D008E65DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B694D0761D1E039D008E65DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B694D0781D1E039D008E65DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B694D07B1D1E039D008E65DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B694D07D1D1E039D008E65DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B694D0821D1E039D008E65DF /* DreamEXXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamEXXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B694D0861D1E039D008E65DF /* DreamEXXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamEXXTests.m; sourceTree = "<group>"; };
+		B694D0881D1E039D008E65DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B694D08D1D1E039D008E65DF /* DreamEXXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamEXXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B694D0911D1E039D008E65DF /* DreamEXXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamEXXUITests.m; sourceTree = "<group>"; };
+		B694D0931D1E039D008E65DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B694D0661D1E039D008E65DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694D07F1D1E039D008E65DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694D08A1D1E039D008E65DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B694D0601D1E039D008E65DF = {
+			isa = PBXGroup;
+			children = (
+				B694D06B1D1E039D008E65DF /* DreamEXX */,
+				B694D0851D1E039D008E65DF /* DreamEXXTests */,
+				B694D0901D1E039D008E65DF /* DreamEXXUITests */,
+				B694D06A1D1E039D008E65DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B694D06A1D1E039D008E65DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B694D0691D1E039D008E65DF /* DreamEXX.app */,
+				B694D0821D1E039D008E65DF /* DreamEXXTests.xctest */,
+				B694D08D1D1E039D008E65DF /* DreamEXXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B694D06B1D1E039D008E65DF /* DreamEXX */ = {
+			isa = PBXGroup;
+			children = (
+				B694D06F1D1E039D008E65DF /* AppDelegate.h */,
+				B694D0701D1E039D008E65DF /* AppDelegate.m */,
+				B694D0721D1E039D008E65DF /* ViewController.h */,
+				B694D0731D1E039D008E65DF /* ViewController.m */,
+				B694D0751D1E039D008E65DF /* Main.storyboard */,
+				B694D0781D1E039D008E65DF /* Assets.xcassets */,
+				B694D07A1D1E039D008E65DF /* LaunchScreen.storyboard */,
+				B694D07D1D1E039D008E65DF /* Info.plist */,
+				B694D06C1D1E039D008E65DF /* Supporting Files */,
+			);
+			path = DreamEXX;
+			sourceTree = "<group>";
+		};
+		B694D06C1D1E039D008E65DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B694D06D1D1E039D008E65DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B694D0851D1E039D008E65DF /* DreamEXXTests */ = {
+			isa = PBXGroup;
+			children = (
+				B694D0861D1E039D008E65DF /* DreamEXXTests.m */,
+				B694D0881D1E039D008E65DF /* Info.plist */,
+			);
+			path = DreamEXXTests;
+			sourceTree = "<group>";
+		};
+		B694D0901D1E039D008E65DF /* DreamEXXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B694D0911D1E039D008E65DF /* DreamEXXUITests.m */,
+				B694D0931D1E039D008E65DF /* Info.plist */,
+			);
+			path = DreamEXXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B694D0681D1E039D008E65DF /* DreamEXX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B694D0961D1E039D008E65DF /* Build configuration list for PBXNativeTarget "DreamEXX" */;
+			buildPhases = (
+				B694D0651D1E039D008E65DF /* Sources */,
+				B694D0661D1E039D008E65DF /* Frameworks */,
+				B694D0671D1E039D008E65DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamEXX;
+			productName = DreamEXX;
+			productReference = B694D0691D1E039D008E65DF /* DreamEXX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B694D0811D1E039D008E65DF /* DreamEXXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B694D0991D1E039D008E65DF /* Build configuration list for PBXNativeTarget "DreamEXXTests" */;
+			buildPhases = (
+				B694D07E1D1E039D008E65DF /* Sources */,
+				B694D07F1D1E039D008E65DF /* Frameworks */,
+				B694D0801D1E039D008E65DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B694D0841D1E039D008E65DF /* PBXTargetDependency */,
+			);
+			name = DreamEXXTests;
+			productName = DreamEXXTests;
+			productReference = B694D0821D1E039D008E65DF /* DreamEXXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B694D08C1D1E039D008E65DF /* DreamEXXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B694D09C1D1E039D008E65DF /* Build configuration list for PBXNativeTarget "DreamEXXUITests" */;
+			buildPhases = (
+				B694D0891D1E039D008E65DF /* Sources */,
+				B694D08A1D1E039D008E65DF /* Frameworks */,
+				B694D08B1D1E039D008E65DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B694D08F1D1E039D008E65DF /* PBXTargetDependency */,
+			);
+			name = DreamEXXUITests;
+			productName = DreamEXXUITests;
+			productReference = B694D08D1D1E039D008E65DF /* DreamEXXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B694D0611D1E039D008E65DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiYang;
+				TargetAttributes = {
+					B694D0681D1E039D008E65DF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B694D0811D1E039D008E65DF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B694D0681D1E039D008E65DF;
+					};
+					B694D08C1D1E039D008E65DF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B694D0681D1E039D008E65DF;
+					};
+				};
+			};
+			buildConfigurationList = B694D0641D1E039D008E65DF /* Build configuration list for PBXProject "DreamEXX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B694D0601D1E039D008E65DF;
+			productRefGroup = B694D06A1D1E039D008E65DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B694D0681D1E039D008E65DF /* DreamEXX */,
+				B694D0811D1E039D008E65DF /* DreamEXXTests */,
+				B694D08C1D1E039D008E65DF /* DreamEXXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B694D0671D1E039D008E65DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694D07C1D1E039D008E65DF /* LaunchScreen.storyboard in Resources */,
+				B694D0791D1E039D008E65DF /* Assets.xcassets in Resources */,
+				B694D0771D1E039D008E65DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694D0801D1E039D008E65DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694D08B1D1E039D008E65DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B694D0651D1E039D008E65DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694D0741D1E039D008E65DF /* ViewController.m in Sources */,
+				B694D0711D1E039D008E65DF /* AppDelegate.m in Sources */,
+				B694D06E1D1E039D008E65DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694D07E1D1E039D008E65DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694D0871D1E039D008E65DF /* DreamEXXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B694D0891D1E039D008E65DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B694D0921D1E039D008E65DF /* DreamEXXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B694D0841D1E039D008E65DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B694D0681D1E039D008E65DF /* DreamEXX */;
+			targetProxy = B694D0831D1E039D008E65DF /* PBXContainerItemProxy */;
+		};
+		B694D08F1D1E039D008E65DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B694D0681D1E039D008E65DF /* DreamEXX */;
+			targetProxy = B694D08E1D1E039D008E65DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B694D0751D1E039D008E65DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B694D0761D1E039D008E65DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B694D07A1D1E039D008E65DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B694D07B1D1E039D008E65DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B694D0941D1E039D008E65DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B694D0951D1E039D008E65DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B694D0971D1E039D008E65DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamEXX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.DreamEXX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B694D0981D1E039D008E65DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamEXX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.DreamEXX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B694D09A1D1E039D008E65DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DreamEXXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.DreamEXXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamEXX.app/DreamEXX";
+			};
+			name = Debug;
+		};
+		B694D09B1D1E039D008E65DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DreamEXXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.DreamEXXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamEXX.app/DreamEXX";
+			};
+			name = Release;
+		};
+		B694D09D1D1E039D008E65DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DreamEXXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.DreamEXXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamEXX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B694D09E1D1E039D008E65DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DreamEXXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.DreamEXXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamEXX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B694D0641D1E039D008E65DF /* Build configuration list for PBXProject "DreamEXX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694D0941D1E039D008E65DF /* Debug */,
+				B694D0951D1E039D008E65DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B694D0961D1E039D008E65DF /* Build configuration list for PBXNativeTarget "DreamEXX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694D0971D1E039D008E65DF /* Debug */,
+				B694D0981D1E039D008E65DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B694D0991D1E039D008E65DF /* Build configuration list for PBXNativeTarget "DreamEXXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694D09A1D1E039D008E65DF /* Debug */,
+				B694D09B1D1E039D008E65DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B694D09C1D1E039D008E65DF /* Build configuration list for PBXNativeTarget "DreamEXXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B694D09D1D1E039D008E65DF /* Debug */,
+				B694D09E1D1E039D008E65DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B694D0611D1E039D008E65DF /* Project object */;
+}
